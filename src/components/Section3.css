@@ -1,0 +1,25 @@
+.Section3 {
+  height: 100vh;
+  background-color: #fdf7ff;
+  border-top: 1px solid black;
+  color: black;
+  margin: 0;
+}
+
+.Section3 p {
+  font-size: 50px;
+  margin: 20px;
+}
+
+.ImagesContainer {
+  width: 90vw;
+  height: 80vh;
+  background-color: blue;
+  margin: 0 auto;
+}
+
+.Img1Container {
+  width: 45vw;
+  height: 80vh;
+  background-color: pink;
+}
