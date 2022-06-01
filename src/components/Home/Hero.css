@@ -1,0 +1,30 @@
+.HeroImgContainer {
+  height: 80vh;
+  width: 98vw;
+  text-align: center;
+}
+
+.Caption1 {
+  position: relative;
+  left: 600px;
+  color: white;
+  font-size: 30px;
+  font-weight: 3;
+}
+
+.Caption2 {
+  position: relative;
+  left: 530px;
+  top: 40px;
+  color: white;
+  font-size: 30px;
+  font-weight: 3;
+}
+
+.Sales {
+  height: 10vh;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}

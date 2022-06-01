@@ -1,0 +1,43 @@
+.mainDiv {
+  width: 100%;
+  height: 60vh;
+
+  border: 0.1px solid rgb(77, 76, 76);
+}
+
+.imgContainer {
+  width: 80%;
+  height: 75%;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.nameContainer {
+  width: 80%;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(219, 219, 219);
+  font-size: 15px;
+}
+
+.priceContainer {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.orgPrice {
+  text-decoration: line-through;
+  color: lightgray;
+  font-weight: lighter;
+  font-size: 12px;
+}

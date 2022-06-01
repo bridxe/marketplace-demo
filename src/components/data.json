@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "name": "Tshirt",
+    "orPrice": "34.50",
+    "diPrice": "24.50",
+    "image": "SliderImages/1.png"
+  },
+
+  {
+    "id": 2,
+    "name": "Dress",
+    "orPrice": "34.50",
+    "diPrice": "24.50",
+    "image": "SliderImages/2.png"
+  },
+  {
+    "id": 3,
+    "name": "Jacket",
+    "orPrice": "34.50",
+    "diPrice": "24.50",
+    "image": "SliderImages/3.png"
+  },
+  {
+    "id": 4,
+    "name": "Shorts",
+    "orPrice": "34.50",
+    "diPrice": "24.50",
+    "image": "SliderImages/4.png"
+  }
+]

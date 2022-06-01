@@ -1,0 +1,48 @@
+.CatalogContainer {
+  width: 99vw;
+}
+
+.itemContainer {
+  padding: 3rem;
+  text-align: center;
+}
+.itemCategory {
+  font-size: 4rem;
+  letter-spacing: 1px;
+}
+
+.productContainer {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.col {
+  min-width: 25%;
+  max-width: 30%;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 950px) {
+  .productContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col {
+    min-width: 30%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .col {
+    min-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .col {
+    min-width: 80%;
+  }
+}

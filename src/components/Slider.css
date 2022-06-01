@@ -1,0 +1,18 @@
+.main {
+  height: 90vh;
+}
+
+.slide-container {
+  height: 80vh;
+
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.each-slide {
+  height: 400px;
+
+  padding-left: 35px;
+  padding: 30px;
+  padding-top: 50px;
+}

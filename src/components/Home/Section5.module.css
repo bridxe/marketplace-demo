@@ -1,0 +1,53 @@
+.Section5 {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.ImgandTextContainer {
+  width: 80vw;
+
+  border: 0.5px solid grey;
+  margin: 0 auto;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.MenuContainer {
+  width: 50%;
+}
+
+.ImgContainer {
+  width: 50%;
+}
+
+.list {
+  list-style: none;
+
+  padding: 0;
+}
+
+.list li {
+  font-size: 4rem;
+  padding: 12px;
+  font-weight: 50;
+  border-bottom: 0.5px solid grey;
+}
+
+.list .lastItem {
+  border-bottom: 0px solid white;
+}
+
+@media screen and (max-width: 950px) {
+  .ImgandTextContainer {
+    flex-direction: column-reverse;
+  }
+
+  .list li {
+    font-size: 3rem;
+  }
+
+  .ImgContainer {
+    width: 100%;
+  }
+}
