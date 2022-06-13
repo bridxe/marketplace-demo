@@ -1,0 +1,35 @@
+.main {
+  height: 150vh;
+  max-width: 100%;
+  text-align: center;
+}
+
+.main span {
+  display: block;
+  font-size: 3.5rem;
+  padding: 2rem;
+  padding-top: 5rem;
+}
+
+.cardContainer {
+  width: 90%;
+
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.cardContainer .col {
+  height: 300px;
+  width: 300px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5rem;
+  }
+}

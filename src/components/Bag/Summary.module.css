@@ -1,0 +1,21 @@
+.SummaryContainer {
+  width: 80%;
+  height: 40vh;
+  padding: 2rem;
+}
+
+.SummaryContainer span {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+}
+.listsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.listsContainer ul li {
+  list-style: none;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
