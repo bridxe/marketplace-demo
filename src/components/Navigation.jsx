@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navigation.css";
 import { FaBars } from "react-icons/fa";
 import { BsBag, BsHeart } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 export default function Navigation() {
   const [showLinks, setShowlinks] = useState(false);
@@ -16,13 +17,13 @@ export default function Navigation() {
           <img src="logo.png" className="img"></img>
         </div>
         <nav className="navlinks" id={showLinks ? "show" : ""}>
-          <a href="#"> ALL PRODUCTS</a>
-          <a href="#"> NEW ARRIVALS </a>
-          <a href="#"> SALES </a>
-          <a href="#"> SEARCH</a>
-          <a href="#">ACCOUNT </a>
-          <a href="#"> WISHLIST(0)</a>
-          <a href="#"> BAG(0) </a>
+          <Link to="/"> Home</Link>
+          <Link to="/Catalog"> ALL PRODUCTS</Link>
+          <Link to="/"> NEW ARRIVALS </Link>
+          <Link to="/"> SALES</Link>
+          <Link to="/"> SEARCH</Link>
+          <Link to="/WishList"> WISHLIST(0)</Link>
+          <Link to="/Bag"> BAG(0)</Link>
         </nav>
         <button>
           <BsHeart className="icons" />

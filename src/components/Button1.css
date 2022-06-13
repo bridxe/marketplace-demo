@@ -1,14 +1,10 @@
 .Button1 {
   height: 50px;
-  width: 200px;
-  border: 1px white solid;
-  border-radius: 5px;
-  font-size: 17px;
+  width: 90%;
+  font-size: 12px;
   letter-spacing: 2px;
-  background-color: #2b1e34;
+  background-color: #714b8e;
   color: white;
 
-  position: absolute;
-  top: 530px;
-  left: 55px;
+  border: none;
 }
