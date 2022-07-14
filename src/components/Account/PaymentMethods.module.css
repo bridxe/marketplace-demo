@@ -1,0 +1,58 @@
+.PaymentMethodsContainer {
+  padding-right: 3rem;
+  width: 50vw;
+  height: 80vh;
+  float: right;
+}
+
+.PaymentMethodsContainer h1 {
+  font-size: 4rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  padding-top: 2rem;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.firstForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.secondForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.formInput {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #463254;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+
+  padding-left: 10px;
+  padding-bottom: 2rem;
+  padding-top: 0px;
+}
+
+.formLabel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #9d88af;
+  margin-bottom: 10px;
+  padding-top: 3rem;
+}
+
+.firstForm select {
+  width: 50px;
+}

@@ -4,7 +4,7 @@
 
 .nav {
   padding: 2rem;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -12,7 +12,7 @@
 
 .navlinks a {
   text-decoration: none;
-  color: white;
+  color: #9d88af;
   padding: 20px;
 }
 
@@ -26,10 +26,19 @@
   height: 100%;
 }
 
-.NavContainer button {
+.NavContainer .hiddenButtons {
   background: transparent;
   border: none;
   display: none;
+}
+
+.navlinks .plusButton {
+  color: #9d88af;
+  font-size: small;
+
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .NavContainer .icons {
@@ -40,8 +49,36 @@
   color: white;
 }
 
+.AllProductsContainer {
+  width: 80vw;
+  height: 50vh;
+  margin: 0 auto;
+  padding: 2rem;
+  font-size: 1.5rem;
+  border: 1px solid rgb(109, 108, 108);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.AllProductsContainer span {
+  font-size: 2rem;
+  color: rgb(211, 206, 206);
+  padding-left: 2rem;
+}
+.AllProductsContainer ul {
+  list-style: none;
+}
+.AllProductsContainer ul li {
+  padding: 1rem;
+}
+
+#hideProducts {
+  display: none;
+}
 @media only screen and (max-width: 950px) {
-  .NavContainer button {
+  .NavContainer .hiddenButtons {
     display: contents;
     cursor: pointer;
   }
